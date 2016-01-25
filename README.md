@@ -13,12 +13,12 @@ Más información sobre la función y los cambios realizados por los bots en la 
 Compilación y ejecución
 -----------------------
 
-Para compilar **Categorizador.cs** descarga *DotNetWikiBot* desde su [página de descargas](http://sourceforge.net/projects/dotnetwikibot/files/latest/download). Suponiendo que lo has descomprimido en la raíz del repositorio ejecuta `mcs -reference:DotNetWikiBot.dll Categorizador.cs`{.bash} si usas Mono o `csc /reference:DotNetWikiBot.dll Categorizador.cs`{.bat} si usas el compilador de VisualStudio.
+Para compilar **Categorizador.cs** descarga *DotNetWikiBot* desde su [página de descargas](http://sourceforge.net/projects/dotnetwikibot/files/latest/download). Suponiendo que lo has descomprimido en la raíz del repositorio ejecuta `mcs -reference:DotNetWikiBot.dll Categorizador.cs` si usas Mono o `csc /reference:DotNetWikiBot.dll Categorizador.cs` si usas el compilador de VisualStudio.
 
 El bot admite dos opciones de línea de comandos `-v` para mostrar más información sobre las operaciones realizadas y `-d` para operar en modo simulación, de forma que los cambios sólo se indican y no se escriben sobre la wiki.
 
 Para ejecutar **enlaces-rotos.py** descarga la versión *core* de *Pywikibot* de su [página de descargas](http://tools.wmflabs.org/pywikibot/). Supuesto que lo has descomprimido sobre la raíz del directorio basta introducir el comando:
 
 ```bash
-PYTHONPATH=core python3 enlaces-rotos.py
+$ PYTHONPATH=core python3 enlaces-rotos.py
 ```
